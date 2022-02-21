@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
+import Register from "../components/Register";
 const SignUp = () =>(
     <Layout title="sign up">
         <div>
-            <h1>Sign Up</h1>
-            Welcome to the Sign Up Page
+        <Register />
         </div>
     </Layout>
 )

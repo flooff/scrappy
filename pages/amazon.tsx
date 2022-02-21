@@ -1,11 +1,8 @@
 import Layout from "../components/Layout";
+import SideBar from "../components/sidebar";
 const Amazon = () => ( 
    <Layout title='amazon'>
-        <div>
-            <h1>Amazon Scrapper</h1>
-            <p>A Amazon Scrapper</p>
-            <img src="static/amazon.png" alt="Amazon" />
-        </div>
+        <SideBar />
    </Layout>
 )
 export default Amazon;
